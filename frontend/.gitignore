@@ -1,0 +1,33 @@
+# =============================
+# React / Frontend
+# =============================
+
+# Node modules
+/node_modules/
+
+# Build output
+/build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optional)
+.vscode/
+
+# Coverage reports
+coverage/
+
+# Optional lock files
+/package-lock.json
+/yarn.lock
