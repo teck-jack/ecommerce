@@ -10,7 +10,7 @@ const app = express();
 // ✅ allow both localhost (dev) & deployed frontend (prod)
 const allowedOrigins = [
   process.env.FRONTEND_URL,   // e.g. https://your-frontend.vercel.app
-  "http://localhost:3000"     // local frontend for development
+  "https://ecommerce-88kq.vercel.app"     // local frontend for development
 ];
 
 app.use(cors({
